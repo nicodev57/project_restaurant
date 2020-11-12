@@ -1,0 +1,14 @@
+/* ----**** List *****---- */
+
+.nav-ul {
+    display: flex;
+    font-size: 1.2rem;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.nav-ul__li {
+    margin-top: -60px;
+}

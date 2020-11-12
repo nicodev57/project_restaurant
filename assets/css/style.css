@@ -1,0 +1,71 @@
+/* ----**** Lib *****---- */
+/* ----**** Variables *****---- */
+/* ----**** Mixins *****---- */
+/* ----**** Layout *****---- */
+html {
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ----**** Body *****---- */
+body {
+  width: 100%;
+  max-width: 1441px;
+}
+
+/* ----**** Main *****---- */
+/* ----**** Header *****---- */
+.header {
+  height: 800px;
+  background: url("/assets/images/header-bg.png");
+}
+
+/* ----**** Section *****---- */
+/* ----**** Div *****---- */
+/* ----**** Footer *****---- */
+/* ----**** Components *****---- */
+/* ----**** Title *****---- */
+/* ----**** Nav *****---- */
+.nav {
+  position: relative;
+  height: 100px;
+  padding: 0 80px;
+}
+
+/* ----**** List *****---- */
+.nav-ul {
+  display: flex;
+  font-size: 1.2rem;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.nav-ul__li {
+  margin-top: -60px;
+}
+
+/* ----**** Anchor *****---- */
+.nav-ul__link-menu {
+  color: #FFF;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+.nav-ul__link-menu:hover {
+  color: #E8C300;
+}
+
+/* ----**** Pgraphs *****---- */
+/* ----**** Button *****---- */
+/* ----**** Form *****---- */
+/* ----**** Image *****---- */
+.nav-ul__image {
+  margin-top: 25px;
+}
