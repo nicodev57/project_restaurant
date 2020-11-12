@@ -24,3 +24,18 @@
     justify-content: space-between;
 }
 
+.main__info-principal--buttons {
+    text-align: center;
+}
+
+.main__button-down {
+    position: absolute;
+    left: 47%;
+    bottom: 10%;
+}
+
+.main__button-down:hover {
+    background: $amarillo;
+    border-radius: 50%;
+    opacity: .8;
+}

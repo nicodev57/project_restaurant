@@ -4,6 +4,12 @@
     margin-top: 25px;
 }
 
-.info--social--icon {
+.info--social--icon-image {
     transform: rotate(-90deg);
 }
+
+.info--social--icon-image:hover {
+    background-color: $amarillo;
+    border-radius: 50px;
+}
+
