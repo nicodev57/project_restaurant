@@ -1,1 +1,26 @@
 /* ----**** Div *****---- */
+
+.main__info-principal {
+    margin-left: -40px;
+}
+
+.main__info-social span {
+    width: 50px;
+}
+
+.linea-vacia {
+    height: 5px;
+    width: 60px;
+    background-color: $amarillo;
+    margin: 0 auto;
+    margin-top: 21px;
+    margin-bottom: 30px;
+}
+
+.main__info-social {
+    display: flex;
+    transform: rotate(90deg);
+    width: 220px;
+    justify-content: space-between;
+}
+

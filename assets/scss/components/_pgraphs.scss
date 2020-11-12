@@ -1,1 +1,14 @@
 /* ----**** Pgraphs *****---- */
+
+.main__info1--text {
+    color: $color-texto-blanco;
+    transform: rotate(-90deg);
+}
+
+.main__info-principal-title--pgraph {
+    color: $color-texto-blanco;
+    text-align: center;
+    font-family: $fuente-parrafos;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+}

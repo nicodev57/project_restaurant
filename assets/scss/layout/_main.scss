@@ -1,1 +1,10 @@
 /* ----**** Main *****---- */
+
+.main {
+    position: relative;
+    height: 699px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: $font-size;
+}
