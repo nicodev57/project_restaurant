@@ -39,3 +39,23 @@
     border-radius: 50%;
     opacity: .8;
 }
+
+.about__info {
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 30px;
+    height: inherit;
+}
+
+.about__images {
+    position: relative;
+}
+
+.about__images--square {
+    position: relative;
+    top: -500px;
+    right: -300px;
+}

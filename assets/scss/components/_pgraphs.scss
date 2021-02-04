@@ -12,3 +12,15 @@
     letter-spacing: 0.5em;
     text-transform: uppercase;
 }
+
+.about__info-pgraph:nth-of-type(1) {
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family: $fuente-parrafos;
+}
+
+.about__info-pgraph:nth-of-type(2) {
+    font-size: 1.4rem;
+    font-family: $fuente-parrafos;
+    margin-top: 15px;
+}

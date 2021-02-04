@@ -35,6 +35,13 @@ body {
 }
 
 /* ----**** Section *****---- */
+.about {
+  padding: 100px 79px 81px;
+  display: flex;
+  height: 475px;
+  margin: 0 60px;
+}
+
 /* ----**** Div *****---- */
 .main__info-principal {
   margin-left: -40px;
@@ -76,12 +83,37 @@ body {
   opacity: 0.8;
 }
 
+.about__info {
+  display: inherit;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-right: 30px;
+  height: inherit;
+}
+
+.about__images {
+  position: relative;
+}
+
+.about__images--square {
+  position: relative;
+  top: -500px;
+  right: -300px;
+}
+
 /* ----**** Footer *****---- */
 /* ----**** Components *****---- */
 /* ----**** Title *****---- */
 .main__info-principal-title--title {
   font-size: 9.6rem;
   color: #FFF;
+  font-family: "Banny Round";
+}
+
+.about__info-title {
+  font-size: 3.6rem;
   font-family: "Banny Round";
 }
 
@@ -129,6 +161,18 @@ body {
   font-family: "Open Sans", sans-serif;
   letter-spacing: 0.5em;
   text-transform: uppercase;
+}
+
+.about__info-pgraph:nth-of-type(1) {
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+}
+
+.about__info-pgraph:nth-of-type(2) {
+  font-size: 1.4rem;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 15px;
 }
 
 /* ----**** Button *****---- */
