@@ -38,8 +38,15 @@ body {
 .about {
   padding: 100px 79px 81px;
   display: flex;
-  height: 475px;
+  height: 675px;
   margin: 0 60px;
+}
+
+.our_team {
+  height: 600px;
+  margin-top: 100px;
+  background-image: url(/assets/images/specialtys-bg.png);
+  padding-top: 30px;
 }
 
 /* ----**** Div *****---- */
@@ -103,6 +110,20 @@ body {
   right: -300px;
 }
 
+.our_team--sections {
+  display: flex;
+  align-items: center;
+}
+
+.our_team--image {
+  flex: 1;
+}
+
+.our_team--text {
+  color: white;
+  text-align: center;
+}
+
 /* ----**** Footer *****---- */
 /* ----**** Components *****---- */
 /* ----**** Title *****---- */
@@ -114,6 +135,19 @@ body {
 
 .about__info-title {
   font-size: 3.6rem;
+  font-family: "Banny Round";
+}
+
+.our_team--title {
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+  font-family: "Banny Round";
+  font-weight: lighter;
+}
+
+.our_team--title2 {
+  font-size: 4.8rem;
   font-family: "Banny Round";
 }
 
@@ -173,6 +207,20 @@ body {
   font-size: 1.4rem;
   font-family: "Open Sans", sans-serif;
   margin-top: 15px;
+}
+
+.our_team--pgraph1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.our_team--pgraph2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
+  font-size: 1.4rem;
+  margin: 30px 95px 0 95px;
+  text-align: center;
 }
 
 /* ----**** Button *****---- */

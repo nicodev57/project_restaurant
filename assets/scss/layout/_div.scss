@@ -59,3 +59,18 @@
     top: -500px;
     right: -300px;
 }
+
+.our_team--sections {
+    display: flex;
+    align-items: center;
+}
+
+.our_team--image {
+    flex: 1;
+}
+
+.our_team--text {
+    color: white;
+    text-align: center;
+}
+
