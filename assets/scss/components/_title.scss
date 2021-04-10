@@ -13,10 +13,15 @@
 
 .our_team--title {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    line-height: 14px;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
     color: white;
-    font-family: $fuente-titulos;
+    font-family: $fuente-parrafos;
     font-weight: lighter;
+    margin-bottom: 50px;
+    margin-top: -50px;
 }
 
 .our_team--title2 {
