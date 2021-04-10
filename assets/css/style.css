@@ -4,6 +4,7 @@
 /* ----**** Layout *****---- */
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 * {
@@ -98,6 +99,11 @@ body {
   text-align: center;
   margin-right: 30px;
   height: inherit;
+  margin-top: -80px;
+}
+
+.linea-vacia-about {
+  margin-top: 10px;
 }
 
 .about__images {
