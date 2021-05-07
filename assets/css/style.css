@@ -51,6 +51,19 @@ body {
   padding: 100px 50px 100px 50px;
 }
 
+.our_team {
+  position: relative;
+  margin-top: 100px;
+}
+
+.formulario {
+  display: flex;
+  margin-top: 100px;
+  text-align: center;
+  align-items: center;
+  height: 650px;
+}
+
 /* ----**** Div *****---- */
 .main__info-principal {
   margin-left: -40px;
@@ -132,6 +145,26 @@ body {
   text-align: center;
 }
 
+.form-image {
+  flex: 1;
+}
+
+.formulario__info {
+  flex: 1;
+}
+
+.formulario__image {
+  flex: 1;
+}
+
+.form-home__div1,
+.form-home__div2 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  flex: 1;
+}
+
 /* ----**** Footer *****---- */
 /* ----**** Components *****---- */
 /* ----**** Title *****---- */
@@ -162,6 +195,11 @@ body {
 .our_team--title2 {
   font-size: 4.8rem;
   font-family: "Banny Round";
+}
+
+.formulario__info--title {
+  font-family: "Banny Round";
+  font-size: 3.6rem;
 }
 
 /* ----**** Nav *****---- */
@@ -263,7 +301,47 @@ body {
   border: 1px solid #E8C300;
 }
 
+.form-home__button {
+  display: block;
+  width: 540px;
+  margin: 0 auto;
+  padding: 15px;
+  margin-top: 10px;
+  background-color: #E8C300;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.form-home__button:hover {
+  cursor: pointer;
+}
+
 /* ----**** Form *****---- */
+.formulario-home {
+  display: flex;
+}
+
+.form-home {
+  display: flex;
+  width: 550px;
+  margin: 0 auto;
+}
+
+.form-home__div1--label,
+.form-home__div2--label {
+  display: inline-block;
+}
+
+.form-home__input {
+  padding: 15px;
+  margin-top: 10px;
+  width: 95%;
+  background-color: #E5E5E5;
+  border: none;
+  font-family: "Open Sans", sans-serif;
+}
+
 /* ----**** Image *****---- */
 .nav-ul__image {
   margin-top: 25px;

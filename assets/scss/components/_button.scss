@@ -25,3 +25,19 @@
     background-color: $amarillo;
     border: 1px solid $amarillo;
 }
+
+.form-home__button {
+    display: block;
+    width: 540px;
+    margin: 0 auto;
+    padding: 15px;
+    margin-top: 10px;
+    background-color: $amarillo;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.form-home__button:hover {
+    cursor: pointer;
+}
