@@ -100,5 +100,26 @@
     flex: 1;
 }
 
+.menu__categories {
+    display: flex;
+    width: 600px;
+    margin: 40px auto;
+    justify-content: space-around;
+}
 
+.categories {
+    border-right: 2px solid $background-inputs;
+    padding: 20px;
+}
+
+.menu-prices {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 50px 100px 50px;
+}
+
+
+.column1-prices {
+    margin-bottom: 30px;
+}
 

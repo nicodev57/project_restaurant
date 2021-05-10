@@ -64,6 +64,10 @@ body {
   height: 650px;
 }
 
+.menu {
+  text-align: center;
+}
+
 /* ----**** Div *****---- */
 .main__info-principal {
   margin-left: -40px;
@@ -165,6 +169,28 @@ body {
   flex: 1;
 }
 
+.menu__categories {
+  display: flex;
+  width: 600px;
+  margin: 40px auto;
+  justify-content: space-around;
+}
+
+.categories {
+  border-right: 2px solid #E5E5E5;
+  padding: 20px;
+}
+
+.menu-prices {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 50px 100px 50px;
+}
+
+.column1-prices {
+  margin-bottom: 30px;
+}
+
 /* ----**** Footer *****---- */
 /* ----**** Components *****---- */
 /* ----**** Title *****---- */
@@ -200,6 +226,17 @@ body {
 .formulario__info--title {
   font-family: "Banny Round";
   font-size: 3.6rem;
+}
+
+.menu__title {
+  font-family: "Banny Round";
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+.prices_title {
+  font-family: "Banny Round";
+  font-size: 2rem;
 }
 
 /* ----**** Nav *****---- */
@@ -272,6 +309,31 @@ body {
   font-size: 1.4rem;
   margin: 30px 95px 0 95px;
   text-align: center;
+}
+
+.menu__pgraph {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  width: 515px;
+  margin: 0 auto;
+  font-weight: bold;
+}
+
+.categories__pgraph {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.categories__pgraph {
+  padding: 0 20px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.prices-pgraph {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  text-align: left;
 }
 
 /* ----**** Button *****---- */
